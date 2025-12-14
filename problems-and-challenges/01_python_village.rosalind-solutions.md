@@ -1,4 +1,4 @@
-# ==Python Village==
+==# Python Village==
 # Rosalind Problems + Answers
 
 Solutions to bioinformatics problems from [Rosalind](http://rosalind.info/), implemented in both Python and R.
