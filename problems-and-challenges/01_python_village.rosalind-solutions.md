@@ -1,14 +1,4 @@
-```r
----
-title: "Rosalind Bioinformatics Problems"
-author: "Billy Trim"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
-```
-
+# ==Python Village==
 # Rosalind Problems + Answers
 
 Solutions to bioinformatics problems from [Rosalind](http://rosalind.info/), implemented in both Python and R.
