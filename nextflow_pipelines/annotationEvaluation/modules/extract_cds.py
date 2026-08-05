@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 """Extract spliced CDS from an EviAnn transcripts FASTA.
-
-Each transcript header carries the CDS span within the (UTR-containing)
-transcript, e.g. ``>LOC_..-mRNA-1 CDS=71-976 Name:..``. PSAURON's headline
-score expects an in-frame spliced CDS (starting at the start codon), so we cut
-out that substring. Transcripts without a CDS= tag are skipped.
-
-Usage: extract_cds.py <transcripts.fasta> <out_cds.fasta>
 """
 import re
 import sys

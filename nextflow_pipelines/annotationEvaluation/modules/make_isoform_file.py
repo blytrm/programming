@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """Build an OMArk --isoform_file from a protein FASTA.
 
-EviAnn protein IDs look like ``<gene>-mRNA-<n>`` (e.g. LOC_00004150-mRNA-2), so
-the gene is the ID with the trailing ``-mRNA-<n>`` stripped. OMArk expects one
-line per gene, listing that gene's protein IDs separated by semicolons; it then
-keeps only the best-scoring isoform per gene, which stops alternative isoforms
-from inflating the "Duplicated" completeness category.
 
 Usage: make_isoform_file.py <proteins.fasta> <out.splice>
 """

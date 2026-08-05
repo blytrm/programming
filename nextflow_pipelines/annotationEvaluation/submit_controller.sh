@@ -12,6 +12,5 @@ set -euo pipefail
 export PATH="/hpcfs/users/a1864358/miniconda/miniconda3/bin:$PATH"
 source /hpcfs/users/a1864358/miniconda/miniconda3/etc/profile.d/conda.sh
 
-# Nextflow controller; child tasks are submitted to Slurm by the pipeline
 cd /hpcfs/users/a1864358/sanders_lab/asm/files/annotation/nf
 bash run_hmaj.sh

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Gene count per sequence (top 30 scaffolds). Usage: plot_genedensity.py <gff3> <out.png>"""
 import sys
 import pandas as pd
 import matplotlib

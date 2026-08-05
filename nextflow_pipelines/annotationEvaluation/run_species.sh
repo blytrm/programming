@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 # Launch postEviann-eval on one species' EviAnn outputs.
-# Usage: run_species.sh <label>    e.g. run_species.sh hcy
-# Expects eviann_results/<label>/<label>.fa.functional_note.{proteins.fasta,transcripts.fasta,pseudo_label.gff}
-# and final-asms/10-<label>-final.renamed.fa
 set -euo pipefail
 
 LABEL="${1:?usage: run_species.sh <label> (hcure|hcurw|hcy|hmaj|horn)}"

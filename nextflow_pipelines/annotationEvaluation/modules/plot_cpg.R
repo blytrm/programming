@@ -1,10 +1,4 @@
 #!/usr/bin/env Rscript
-# CpG-island karyoplot for a non-model genome.
-# Islands computed de-novo (Gardiner-Garden: win 200, GC>50%, obs/exp CpG>0.6)
-# then drawn on the assembled CHROMOSOMES only (ch1..chN, chZ/chW) with karyoploteR.
-# CpG signal is shown as island DENSITY along each chromosome (individual 200 bp
-# islands are invisible at whole-genome scale), with a light rug of island
-# positions. Academic red/black palette.
 # Usage: plot_cpg.R <genome.fa> <out.png> <out.tsv>
 suppressMessages({
   library(Biostrings); library(GenomicRanges); library(GenomeInfoDb)

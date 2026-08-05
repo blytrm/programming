@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Gene-length distribution. Usage: plot_genelength.py <gff3> <out.png>"""
 import sys
 import pandas as pd
 import matplotlib
