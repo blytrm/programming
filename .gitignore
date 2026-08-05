@@ -1,0 +1,5 @@
+eviann_results/
+pipeline/
+tblastn/
+nextflow_pipelines/**/.nextflow/
+nextflow_pipelines/**/logs/
